@@ -23,8 +23,8 @@ To enable silencable and silence these code blocks run, run the following rake c
 
     $ rake silenceable:enable
 
-Any code wraped in a `Silenceable` block is now silenced/disabled.
-To disable silenceable and allow these code blocks to run, run the following rake command
+This will write a `.silenced` file to the root path of your rails app. Any code wraped in a `Silenceable` block is now silenced/disabled.
+To disable silenceable and allow these code blocks to run, delete the `.silenced` file from your apps root path or run the following rake command
 
     $ rake silenceable:disable
 
