@@ -17,10 +17,10 @@ Jeweler::Tasks.new do |gem|
   gem.name = "silenceable"
   gem.homepage = "http://github.com/bradylove/silenceable"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{one-line summary of your gem}
+  gem.description = %Q{longer description of your gem}
   gem.email = "love.brady@gmail.com"
-  gem.authors = ["Brady"]
+  gem.authors = ["Brady Love"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
@@ -40,7 +40,7 @@ task :default => :spec
 
 require 'rdoc/task'
 Rake::RDocTask.new do |rdoc|
-  version = File.exist?('VERSION') ? File.read('VERSION') : ""
+  version = File.exist?('VERSION') ? File.read('VERSION') : "0.0.0"
 
   rdoc.rdoc_dir = 'rdoc'
   rdoc.title = "silenceable #{version}"
