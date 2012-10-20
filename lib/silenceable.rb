@@ -13,3 +13,7 @@ module Silenceable
     end
   end
 end
+
+if defined?(Rails)
+  require "silenceable/railtie"
+end

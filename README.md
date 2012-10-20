@@ -19,12 +19,14 @@ Simply use the awesome Silenceable method
       puts "This block is silenceable :)"
     end
 
-By default this block will run. To silence it simply add a file named `.silenced` to the root of your Rails app
+To enable silencable and silence these code blocks run, run the following rake command
 
-    $ cd root/of/rails/app
-    $ touch .silenced
+    $ rake silenceable:enable
 
-Any code wraped in a `Silenceable` block is now disabled
+Any code wraped in a `Silenceable` block is now silenced/disabled.
+To disable silenceable and allow these code blocks to run, run the following rake command
+
+    $ rake silenceable:disable
 
 ## Contributing to silenceable
 

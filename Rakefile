@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "silenceable"
   gem.homepage = "http://github.com/bradylove/silenceable"
   gem.license = "MIT"
-  gem.summary = %Q{one-line summary of your gem}
-  gem.description = %Q{longer description of your gem}
+  gem.summary = %Q{Silenceable is a simple gem that allows blocks of code to be easily silenced. (Enabled/Disabled)}
+  gem.description = %Q{Silenceable is a simple gem that allows blocks of code to be easily silenced. (Enabled/Disabled)}
   gem.email = "love.brady@gmail.com"
   gem.authors = ["Brady Love"]
   # dependencies defined in Gemfile
